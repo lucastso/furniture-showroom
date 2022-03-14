@@ -35,7 +35,85 @@
   z-index: 999;
   width: 4rem;
   height: 4rem;
-  background-color: black;
+  background-color: rgb(27, 27, 27);
   border-radius: 100%;
   cursor: pointer;
+}
+
+.home-after-image1 {
+  display: flex;
+  gap: 6rem;
+  justify-content: space-between;
+  margin: 8rem 20rem 8rem 20rem;
+}
+
+.home-after-image2 {
+  display: flex;
+  gap: 6rem;
+  justify-content: space-between;
+  margin: 8rem 20rem 8rem 20rem;
+}
+
+.home-main1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.home-main2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.home-main-title {
+  font-family: "Playfair Display", serif;
+  color: rgb(27, 27, 27);
+  font-size: 2rem;
+}
+
+.home-main-sub1 {
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.75rem;
+  text-align: end;
+}
+
+.home-main-sub2 {
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.75rem;
+}
+
+.home-main-bg2 {
+  background-image: url("../../assets/furniture2.jpg");
+  width: 60vw;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.home-main-bg1 {
+  background-image: url("../../assets/furniture.jpg");
+  width: 60vw;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.home-after-second-hero {
+  margin: 8rem 20rem 8rem 20rem;
+}
+
+.home-footer {
+  padding: 8rem 20rem 8rem 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: rgb(27, 27, 27);
+  color: white;
 }
