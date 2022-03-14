@@ -1,0 +1,20 @@
+.home-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.home-headtext {
+  font-family: "Playfair Display", serif;
+  color: rgb(27, 27, 27);
+  font-size: 4rem;
+}
+
+.home-ptext {
+  font-family: "Work Sans", serif;
+  color: rgb(27, 27, 27);
+}
