@@ -2,12 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(27, 27, 27);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(19, 19, 19);
 }
 
 .app {
   background-color: #ffffff;
   min-height: 100vh;
   min-width: 100vh;
-  margin-left: 20rem;
-  margin-right: 20rem;
 }
