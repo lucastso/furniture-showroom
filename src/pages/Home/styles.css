@@ -20,7 +20,7 @@
 }
 
 .home-parallax {
-  width: 100%;
+  width: 100vw;
   height: 40rem;
 }
 
@@ -44,6 +44,7 @@
   display: flex;
   gap: 6rem;
   justify-content: space-between;
+  flex-direction: row;
   margin: 8rem 20rem 8rem 20rem;
 }
 
@@ -51,6 +52,7 @@
   display: flex;
   gap: 6rem;
   justify-content: space-between;
+  flex-direction: row;
   margin: 8rem 20rem 8rem 20rem;
 }
 
@@ -116,4 +118,16 @@
   align-items: flex-start;
   background-color: rgb(27, 27, 27);
   color: white;
+}
+
+@media only screen and (max-width: 1280px) {
+  .home-after-image1 {
+    margin: 4rem 10rem 4rem 10rem;
+    flex-direction: column;
+  }
+
+  .home-after-image2 {
+    margin: 4rem 10rem 4rem 10rem;
+    flex-direction: column;
+  }
 }
