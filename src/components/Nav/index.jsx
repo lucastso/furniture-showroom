@@ -19,6 +19,7 @@ export function Nav() {
           Contato
         </a>
       </div>
+
       <button className="nav-start">Começar</button>
     </div>
   );
