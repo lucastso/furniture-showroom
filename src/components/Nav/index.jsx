@@ -5,6 +5,7 @@ export function Nav() {
   return (
     <div className="nav-container">
       <div className="">logo</div>
+
       <div className="nav-options">
         <a href="#" className="nav-option">
           Sobre
