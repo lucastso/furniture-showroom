@@ -3,8 +3,18 @@
   justify-content: space-between;
   align-items: center;
   height: 8vh;
-  margin-left: 20rem;
-  margin-right: 20rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.nav-sticky-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .nav-options {
@@ -12,24 +22,17 @@
   gap: 2rem;
 }
 
+.nav-flexible-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
 .nav-option {
   color: rgb(27, 27, 27);
   font-family: "Work Sans", sans-serif;
   text-decoration: none;
-}
-
-.nav-start {
-  background-color: rgb(27, 27, 27);
-  width: 8rem;
-  height: 3rem;
-  border-radius: 0.5rem;
-  border: 0;
-  outline: 0;
-  color: white;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 500;
-  font-size: 1rem;
-  cursor: pointer;
 }
 
 @media only screen and (max-width: 1280px) {

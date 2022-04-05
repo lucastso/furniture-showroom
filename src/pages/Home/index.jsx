@@ -2,6 +2,7 @@ import React from "react";
 import { Nav } from "../../components/Nav";
 import { Parallax } from "react-parallax";
 import zap from "../../assets/zap.png";
+import logo from "../../assets/logo.png";
 import "./styles.css";
 
 export function Home() {
@@ -12,14 +13,27 @@ export function Home() {
         <img src={zap} alt="whatsapp logo" width={36} />
       </div>
       <div className="home-text">
-        <h1 className="home-headtext">Móveis para viver melhor.</h1>
+        <h1 className="home-headtext">
+          Interiores{" "}
+          <span
+            style={{
+              background: "#1b1b1b",
+              paddingLeft: "1rem",
+              paddingRight: "1rem",
+              color: "white",
+            }}
+          >
+            modernos.
+          </span>
+        </h1>
         <p className="home-ptext">
-          Texto aqui, algo para servir de referência e afins.
+          Feitos com excelência. Transforme seu interior com móveis super
+          agradáveis.
         </p>
       </div>
       <div className="home-image-container">
         <Parallax
-          bgImage="https://images.unsplash.com/photo-1558442086-8ea19a79cd4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80"
+          bgImage="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
           bgImageAlt="the furnitures"
           strength={300}
         >
@@ -63,7 +77,7 @@ export function Home() {
         container para servir de sobre para a loja, endereço e história.
       </div>
       <footer className="home-footer">
-        <div>logo</div>
+        <img src={logo} alt="logo logo" width={112} />
         <div>páginas</div>
         <div>contatos</div>
         <div>redes sociais</div>
