@@ -2,6 +2,7 @@ import React from "react";
 import { Nav } from "../../components/Nav";
 import { Parallax } from "react-parallax";
 import zap from "../../assets/zap.png";
+import furni from "../../assets/furni.png";
 import logo from "../../assets/logo.png";
 import "./styles.css";
 import SmoothScroll from "../../components/SmoothScroll";
@@ -72,8 +73,51 @@ export function Home() {
           >
             <p className="home-parallax"></p>
           </Parallax>
-          <div className="home-after-second-hero">
-            container para servir de sobre para a loja, endereço e história.
+          <div className="home-after-image3">
+            <div className="home-main3">
+              <h1 className="home-main-title">Lorem Ipsum</h1>
+              <p className="home-main-sub2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur ducimus minus earum dolorem quos nostrum iure fugiat
+                temporibus numquam mollitia? Recusandae sunt pariatur libero
+                modi doloribus ullam aperiam est eius!
+              </p>
+            </div>
+            <div className="home-main3">
+              <h1 className="home-main-title">Lorem Ipsum</h1>
+              <p className="home-main-sub2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur ducimus minus earum dolorem quos nostrum iure fugiat
+                temporibus numquam mollitia? Recusandae sunt pariatur libero
+                modi doloribus ullam aperiam est eius!
+              </p>
+            </div>
+          </div>
+          <div className="home-photos">
+            <div className="home-photo1">
+              <div className="home-box-photo">
+                <img src={furni} alt="furniture icon" width={16} />
+                <p className="home-text-insidebox">
+                  Poltrona bege com base de madeira
+                </p>
+              </div>
+            </div>
+            <div className="home-photo2">
+              <div className="home-box-photo">
+                <img src={furni} alt="furniture icon" width={16} />
+                <p className="home-text-insidebox">
+                  Criado mudo de madeira clara
+                </p>
+              </div>
+            </div>
+            <div className="home-photo3">
+              <div className="home-box-photo">
+                <img src={furni} alt="furniture icon" width={16} />
+                <p className="home-text-insidebox">
+                  Cadeira amarela industrial
+                </p>
+              </div>
+            </div>
           </div>
           <footer className="home-footer">
             <img src={logo} alt="logo logo" width={112} />
@@ -83,14 +127,13 @@ export function Home() {
           </footer>
         </SmoothScroll>
       </section>
+
+      {/* MOBILE SECTION */}
+
       <section className="home-mobile">
         {/* #TODO: NAV PARA MOBILE */}
+        {/* #TODO: ZAP BUTTON PARA MOBILE */}
 
-        <div className="home-contato-container">
-          <div className="home-contato">
-            <img src={zap} alt="whatsapp logo" width={36} />
-          </div>
-        </div>
         <div className="home-text">
           <h1 className="home-headtext">
             Interiores{" "}
@@ -113,7 +156,7 @@ export function Home() {
         <Parallax
           bgImageAlt="the furnitures"
           className="parallax1"
-          strength={250}
+          strength={400}
         >
           <p className="home-parallax"></p>
         </Parallax>
@@ -144,12 +187,53 @@ export function Home() {
         <Parallax
           bgImageAlt="the furnitures"
           className="parallax2"
-          strength={250}
+          strength={400}
         >
           <p className="home-parallax"></p>
         </Parallax>
-        <div className="home-after-second-hero">
-          container para servir de sobre para a loja, endereço e história.
+        <div className="home-after-image3">
+          <div className="home-main3">
+            <h1 className="home-main-title">Lorem Ipsum</h1>
+            <p className="home-main-sub2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              ducimus minus earum dolorem quos nostrum iure fugiat temporibus
+              numquam mollitia? Recusandae sunt pariatur libero modi doloribus
+              ullam aperiam est eius!
+            </p>
+          </div>
+          <div className="home-main3">
+            <h1 className="home-main-title">Lorem Ipsum</h1>
+            <p className="home-main-sub2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              ducimus minus earum dolorem quos nostrum iure fugiat temporibus
+              numquam mollitia? Recusandae sunt pariatur libero modi doloribus
+              ullam aperiam est eius!
+            </p>
+          </div>
+        </div>
+        <div className="home-photos">
+          <div className="home-photo1">
+            <div className="home-box-photo">
+              <img src={furni} alt="furniture icon" className="furni-icon" />
+              <p className="home-text-insidebox">
+                Poltrona bege com base de madeira
+              </p>
+            </div>
+          </div>
+          <div className="home-photo2">
+            <div className="home-box-photo">
+              <img src={furni} alt="furniture icon" className="furni-icon" />
+              <p className="home-text-insidebox">
+                Criado mudo de madeira clara
+              </p>
+            </div>
+          </div>
+          <div className="home-photo3">
+            <div className="home-box-photo">
+              <img src={furni} alt="furniture icon" className="furni-icon" />
+              <p className="home-text-insidebox">Cadeira amarela industrial</p>
+            </div>
+          </div>
         </div>
         <footer className="home-footer">
           <img src={logo} alt="logo logo" width={112} />
