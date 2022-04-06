@@ -8,7 +8,7 @@ export function Nav() {
   return (
     <section className="nav-sticky-container">
       <div className="nav-container">
-        <div className="">
+        <div className="nav-logo">
           <img src={logo} alt="logo logo" width={112} />
         </div>
         <div className="nav-options">

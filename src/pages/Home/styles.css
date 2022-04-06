@@ -160,7 +160,7 @@
   color: white;
 }
 
-@media only screen and (max-width: 676px) {
+@media only screen and (max-width: 768px) {
   .home-after-image1 {
     width: 100vw;
     justify-content: center;
@@ -202,7 +202,7 @@
   }
 
   .home-ptext {
-    padding: 1rem;
+    padding: 1.5rem;
     font-size: 0.75rem;
     text-align: center;
     line-height: 1.75rem;
@@ -212,7 +212,7 @@
     font-family: "Playfair Display", serif;
     color: rgb(27, 27, 27);
     font-size: 2rem;
-    padding: 1rem;
+    padding: 1.5rem;
     padding-top: 4rem;
   }
 
@@ -220,16 +220,16 @@
     font-family: "Work Sans", sans-serif;
     line-height: 1.75rem;
     text-align: end;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     font-size: 0.75rem;
   }
 
   .home-main-sub2 {
     font-family: "Work Sans", sans-serif;
     line-height: 1.75rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     font-size: 0.75rem;
   }
 
@@ -242,12 +242,12 @@
   }
 
   .home-main-bg2 {
-    width: 90vw;
+    width: 85vw;
     height: 30vh;
   }
 
   .home-main-bg1 {
-    width: 90vw;
+    width: 85vw;
     height: 30vh;
   }
 

@@ -19,8 +19,14 @@
 }
 
 .nav-options {
+  justify-content: center;
+  align-items: center;
   display: flex;
   gap: 2rem;
+}
+
+.nav-logo {
+  margin-right: 2rem;
 }
 
 .nav-flexible-options {
@@ -31,9 +37,12 @@
 }
 
 .nav-option {
+  justify-content: center;
+  align-items: center;
   color: rgb(27, 27, 27);
   font-family: "Work Sans", sans-serif;
   text-decoration: none;
+  text-align: center;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -43,7 +52,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1280px) {
   .nav-container {
     display: block;
     padding-left: 0;
