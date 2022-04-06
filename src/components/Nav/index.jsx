@@ -11,7 +11,6 @@ export function Nav() {
         <div className="">
           <img src={logo} alt="logo logo" width={112} />
         </div>
-
         <div className="nav-options">
           <p className="nav-option">
             Avenida Zélia de Lima Rosa, 454.

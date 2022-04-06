@@ -1,4 +1,5 @@
 .nav-container {
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,7 +14,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 999;
 }
 
@@ -42,10 +43,15 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .nav-container {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    height: 12vh;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    backdrop-filter: none;
+  }
+
+  .nav-sticky-container {
+    position: static;
   }
 }
