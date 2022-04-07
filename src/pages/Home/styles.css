@@ -164,8 +164,25 @@
   margin: 8rem 20rem 8rem 20rem;
 }
 
+.home-flexible-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-option {
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
 .home-footer {
   width: 100vw;
+  height: 47.5vh;
   padding: 8rem 20rem 8rem 20rem;
   display: flex;
   justify-content: space-between;

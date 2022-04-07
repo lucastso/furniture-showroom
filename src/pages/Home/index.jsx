@@ -6,6 +6,8 @@ import furni from "../../assets/furni.png";
 import logo from "../../assets/logo.png";
 import "./styles.css";
 import SmoothScroll from "../../components/SmoothScroll";
+import face from "../../assets/face.png";
+import insta from "../../assets/insta.png";
 
 export function Home() {
   return (
@@ -123,7 +125,14 @@ export function Home() {
             <img src={logo} alt="logo logo" width={112} />
             <div>páginas</div>
             <div>contatos</div>
-            <div>redes sociais</div>
+            <div className="home-flexible-options">
+              <img src={face} alt="facebook logo" width={22} />
+              <p className="home-option">Cumaru móveis</p>
+            </div>
+            <div className="home-flexible-options">
+              <img src={insta} alt="instagram logo" width={22} />
+              <p className="home-option">@cumarumoveis</p>
+            </div>
           </footer>
         </SmoothScroll>
       </section>
@@ -239,7 +248,14 @@ export function Home() {
           <img src={logo} alt="logo logo" width={112} />
           <div>páginas</div>
           <div>contatos</div>
-          <div>redes sociais</div>
+          <div className="home-flexible-options">
+            <img src={face} alt="facebook logo" width={22} />
+            <p className="home-option">Cumaru móveis</p>
+          </div>
+          <div className="home-flexible-options">
+            <img src={insta} alt="instagram logo" width={22} />
+            <p className="home-option">@cumarumoveis</p>
+          </div>
         </footer>
       </section>
     </section>
