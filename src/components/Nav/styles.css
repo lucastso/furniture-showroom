@@ -47,20 +47,7 @@
 
 @media only screen and (max-width: 1280px) {
   .nav-container {
-    margin-left: 10rem;
-    margin-right: 10rem;
-  }
-}
-
-@media only screen and (max-width: 1280px) {
-  .nav-container {
-    display: block;
-    padding-left: 0;
-    padding-right: 0;
-    backdrop-filter: none;
-  }
-
-  .nav-sticky-container {
-    position: static;
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
 }

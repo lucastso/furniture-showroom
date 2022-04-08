@@ -2,12 +2,15 @@ import React from "react";
 import { Nav } from "../../components/Nav";
 import { Parallax } from "react-parallax";
 import zap from "../../assets/zap.png";
+import tele from "../../assets/tele.png";
+import pin from "../../assets/pin.png";
 import furni from "../../assets/furni.png";
-import logo from "../../assets/logo.png";
+import logo2 from "../../assets/logo2.png";
 import "./styles.css";
 import SmoothScroll from "../../components/SmoothScroll";
-import face from "../../assets/face.png";
-import insta from "../../assets/insta.png";
+import face2 from "../../assets/face2.png";
+import insta2 from "../../assets/insta2.png";
+import { NavMobile } from "../../components/NavMobile";
 
 export function Home() {
   return (
@@ -122,17 +125,30 @@ export function Home() {
             </div>
           </div>
           <footer className="home-footer">
-            <img src={logo} alt="logo logo" width={112} />
-            <div>páginas</div>
-            <div>contatos</div>
-            <div className="home-flexible-options">
-              <img src={face} alt="facebook logo" width={22} />
-              <p className="home-option">Cumaru móveis</p>
-            </div>
-            <div className="home-flexible-options">
-              <img src={insta} alt="instagram logo" width={22} />
-              <p className="home-option">@cumarumoveis</p>
-            </div>
+            <img src={logo2} alt="logo" width={160} />
+            <section className="home-contatos1">
+              <div className="home-flexible-options">
+                <img src={pin} alt="pin" width={12} />
+                <p className="home-option">
+                  Avenida Zélia de Lima Rosa, 454.
+                  <strong> Boituva, SP</strong>
+                </p>
+              </div>
+              <div className="home-flexible-options">
+                <img src={tele} alt="tele" width={18} />
+                <p className="home-option"> (11) 3242 9191</p>
+              </div>
+            </section>
+            <section className="home-contatos2">
+              <div className="home-flexible-options">
+                <img src={face2} alt="facebook logo" width={22} />
+                <p className="home-option">Cumaru móveis</p>
+              </div>
+              <div className="home-flexible-options">
+                <img src={insta2} alt="instagram logo" width={22} />
+                <p className="home-option">@cumarumoveis</p>
+              </div>
+            </section>
           </footer>
         </SmoothScroll>
       </section>
@@ -140,8 +156,11 @@ export function Home() {
       {/* MOBILE SECTION */}
 
       <section className="home-mobile">
-        {/* #TODO: NAV PARA MOBILE */}
-        {/* #TODO: ZAP BUTTON PARA MOBILE */}
+        <NavMobile />
+
+        <div className="home-contato">
+          <img src={zap} alt="whatsapp logo" width={36} />
+        </div>
 
         <div className="home-text">
           <h1 className="home-headtext">
@@ -245,17 +264,30 @@ export function Home() {
           </div>
         </div>
         <footer className="home-footer">
-          <img src={logo} alt="logo logo" width={112} />
-          <div>páginas</div>
-          <div>contatos</div>
-          <div className="home-flexible-options">
-            <img src={face} alt="facebook logo" width={22} />
-            <p className="home-option">Cumaru móveis</p>
-          </div>
-          <div className="home-flexible-options">
-            <img src={insta} alt="instagram logo" width={22} />
-            <p className="home-option">@cumarumoveis</p>
-          </div>
+          <img src={logo2} alt="logo" width={160} />
+          <section className="home-contatos1">
+            <div className="home-flexible-options">
+              <img src={pin} alt="pin" width={12} />
+              <p className="home-option">
+                Avenida Zélia de Lima Rosa, 454.
+                <strong> Boituva, SP</strong>
+              </p>
+            </div>
+            <div className="home-flexible-options">
+              <img src={tele} alt="tele" width={18} />
+              <p className="home-option"> (11) 3242 9191</p>
+            </div>
+          </section>
+          <section className="home-contatos2">
+            <div className="home-flexible-options">
+              <img src={face2} alt="facebook logo" width={22} />
+              <p className="home-option">Cumaru móveis</p>
+            </div>
+            <div className="home-flexible-options">
+              <img src={insta2} alt="instagram logo" width={22} />
+              <p className="home-option">@cumarumoveis</p>
+            </div>
+          </section>
         </footer>
       </section>
     </section>

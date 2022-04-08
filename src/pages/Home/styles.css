@@ -180,15 +180,28 @@
   text-align: center;
 }
 
+.home-contatos2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.home-contatos1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
 .home-footer {
   width: 100vw;
-  height: 47.5vh;
-  padding: 8rem 20rem 8rem 20rem;
+  padding-bottom: 10rem;
+  height: 60vh;
   display: flex;
+  padding-left: 20rem;
+  padding-right: 20rem;
   justify-content: space-between;
-  align-items: flex-start;
-  background-color: rgb(27, 27, 27);
-  color: white;
+  align-items: center;
+  background-color: #27181c;
 }
 
 .home-photos {
@@ -252,6 +265,13 @@
 
 .furni-icon {
   width: 18px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .home-footer {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -361,8 +381,8 @@
 
   .home-footer {
     width: 100vw;
-    height: 40vh;
-    padding: 0;
+    height: 50vh;
+    padding: 2rem;
     flex-direction: column;
     align-items: center;
   }
