@@ -7,7 +7,7 @@ export function Nav() {
     <section className="nav-sticky-container">
       <div className="nav-container">
         <div className="nav-logo">
-          <img src={logo} alt="logo logo" width={160} />
+          <img src={logo} alt="logo logo" width={200} />
         </div>
         <div className="nav-options">
           <p className="nav-option">

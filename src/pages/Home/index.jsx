@@ -125,7 +125,7 @@ export function Home() {
             </div>
           </div>
           <footer className="home-footer">
-            <img src={logo2} alt="logo" width={160} />
+            <img src={logo2} alt="logo" width={240} />
             <section className="home-contatos1">
               <div className="home-flexible-options">
                 <img src={pin} alt="pin" width={12} />

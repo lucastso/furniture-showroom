@@ -30,7 +30,7 @@
 .home-ptext {
   font-family: "Work Sans", serif;
   color: rgb(27, 27, 27);
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .home-parallax {
@@ -128,18 +128,20 @@
 .home-main-title {
   font-family: "Playfair Display", serif;
   color: rgb(27, 27, 27);
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .home-main-sub1 {
   font-family: "Work Sans", sans-serif;
   line-height: 1.75rem;
   text-align: end;
+  font-size: 1.25rem;
 }
 
 .home-main-sub2 {
   font-family: "Work Sans", sans-serif;
   line-height: 1.75rem;
+  font-size: 1.25rem;
 }
 
 .home-main-bg2 {
