@@ -50,23 +50,25 @@ export function Home() {
           <div className="home-after-image1">
             <div className="home-main-bg1"></div>
             <div className="home-main1">
-              <h1 className="home-main-title">Lorem Ipsum</h1>
+              <h1 className="home-main-title">
+                Beleza, delicadeza e elegância
+              </h1>
               <p className="home-main-sub1">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Pariatur ducimus minus earum dolorem quos nostrum iure fugiat
-                temporibus numquam mollitia? Recusandae sunt pariatur libero
-                modi doloribus ullam aperiam est eius!
+                Toda casa precisa de uma atmosfera confortável. Consideramos
+                todos os detalhes para criar um ambiente com um design dos
+                sonhos e aconchegante, que você sentirá falta após um longo dia
+                de trabalho. Faça seu cômodo moderno.
               </p>
             </div>
           </div>
           <div className="home-after-image2">
             <div className="home-main2">
-              <h1 className="home-main-title">Lorem Ipsum</h1>
+              <h1 className="home-main-title">Nossa decoração</h1>
               <p className="home-main-sub2">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Pariatur ducimus minus earum dolorem quos nostrum iure fugiat
-                temporibus numquam mollitia? Recusandae sunt pariatur libero
-                modi doloribus ullam aperiam est eius!
+                Somos apaixonados em fazer nossa parte para nossos clientes
+                terem uma vida melhor e mais tranquila. Conectamos pessoas e os
+                produtos de uma forma indiscutível. Criamos histórias e cômodos
+                para todos.
               </p>
             </div>
             <div className="home-main-bg2"></div>
@@ -80,21 +82,20 @@ export function Home() {
           </Parallax>
           <div className="home-after-image3">
             <div className="home-main3">
-              <h1 className="home-main-title">Lorem Ipsum</h1>
+              <h1 className="home-main-title">A Cumaru</h1>
               <p className="home-main-sub2">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Pariatur ducimus minus earum dolorem quos nostrum iure fugiat
-                temporibus numquam mollitia? Recusandae sunt pariatur libero
-                modi doloribus ullam aperiam est eius!
+                Nossa loja oferece móveis marcantes, criados com uma combinação
+                de conforto, funcionalidade e acessibilidade. Desde móveis para
+                a sala de estar, a cozinha, o quarto e para o exterior, nossa
+                coleção é decidida para criar um espaço que combine com o seu
+                estilo de vida.
               </p>
             </div>
             <div className="home-main3">
-              <h1 className="home-main-title">Lorem Ipsum</h1>
+              <h1 className="home-main-title">Para você</h1>
               <p className="home-main-sub2">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Pariatur ducimus minus earum dolorem quos nostrum iure fugiat
-                temporibus numquam mollitia? Recusandae sunt pariatur libero
-                modi doloribus ullam aperiam est eius!
+                Um ar de elegância e autenticidade é trazido para todo o espaço.
+                Sinta-se, mais do que nunca, em casa.
               </p>
             </div>
           </div>
@@ -191,23 +192,22 @@ export function Home() {
         <div className="home-after-image1">
           <div className="home-main-bg1"></div>
           <div className="home-main1">
-            <h1 className="home-main-title">Lorem Ipsum</h1>
+            <h1 className="home-main-title">Beleza, delicadeza e elegância</h1>
             <p className="home-main-sub1">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              ducimus minus earum dolorem quos nostrum iure fugiat temporibus
-              numquam mollitia? Recusandae sunt pariatur libero modi doloribus
-              ullam aperiam est eius!
+              Toda casa precisa de uma atmosfera confortável. Consideramos todos
+              os detalhes para criar um ambiente com um design dos sonhos e
+              aconchegante, que você sentirá falta após um longo dia de
+              trabalho. Faça seu cômodo moderno.
             </p>
           </div>
         </div>
         <div className="home-after-image2">
           <div className="home-main2">
-            <h1 className="home-main-title">Lorem Ipsum</h1>
+            <h1 className="home-main-title">Nossa decoração</h1>
             <p className="home-main-sub2">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              ducimus minus earum dolorem quos nostrum iure fugiat temporibus
-              numquam mollitia? Recusandae sunt pariatur libero modi doloribus
-              ullam aperiam est eius!
+              Somos apaixonados em fazer nossa parte para nossos clientes terem
+              uma vida melhor e mais tranquila. Conectamos pessoas e os produtos
+              de uma forma indiscutível. Criamos histórias e cômodos para todos.
             </p>
           </div>
           <div className="home-main-bg2"></div>
@@ -221,21 +221,20 @@ export function Home() {
         </Parallax>
         <div className="home-after-image3">
           <div className="home-main3">
-            <h1 className="home-main-title">Lorem Ipsum</h1>
+            <h1 className="home-main-title">A Cumaru</h1>
             <p className="home-main-sub2">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              ducimus minus earum dolorem quos nostrum iure fugiat temporibus
-              numquam mollitia? Recusandae sunt pariatur libero modi doloribus
-              ullam aperiam est eius!
+              Nossa loja oferece móveis marcantes, criados com uma combinação de
+              conforto, funcionalidade e acessibilidade. Desde móveis para a
+              sala de estar, a cozinha, o quarto e para o exterior, nossa
+              coleção é decidida para criar um espaço que combine com o seu
+              estilo de vida.
             </p>
           </div>
           <div className="home-main3">
-            <h1 className="home-main-title">Lorem Ipsum</h1>
+            <h1 className="home-main-title">Para você</h1>
             <p className="home-main-sub2">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              ducimus minus earum dolorem quos nostrum iure fugiat temporibus
-              numquam mollitia? Recusandae sunt pariatur libero modi doloribus
-              ullam aperiam est eius!
+              Um ar de elegância e autenticidade é trazido para todo o espaço.
+              Sinta-se, mais do que nunca, em casa.
             </p>
           </div>
         </div>
