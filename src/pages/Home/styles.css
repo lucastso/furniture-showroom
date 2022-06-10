@@ -41,7 +41,7 @@
 .parallax1 {
   width: 100vw;
   height: 40vh;
-  background-image: url("https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80");
+  background-image: url("https://i.imgur.com/Y40gL3n.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: contain;
@@ -51,7 +51,7 @@
 .parallax2 {
   width: 100vw;
   height: 40vh;
-  background-image: url("https://images.unsplash.com/photo-1558442074-3c19857bc1dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80");
+  background-image: url("https://i.imgur.com/sFSHLbC.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: contain;
@@ -95,6 +95,7 @@
   display: flex;
   gap: 6rem;
   justify-content: space-between;
+  align-items: flex-start;
   flex-direction: row;
   margin: 8rem 20rem 8rem 20rem;
 }
@@ -219,7 +220,7 @@
 
 .home-photo1 {
   position: relative;
-  background-image: url("https://images.unsplash.com/photo-1580480055273-228ff5388ef8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-image: url("https://images.unsplash.com/photo-1581428982868-e410dd047a90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -229,7 +230,7 @@
 
 .home-photo2 {
   position: relative;
-  background-image: url("https://images.unsplash.com/photo-1616464917528-00525c081b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-image: url("https://images.unsplash.com/photo-1615920606214-6428b3324c74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -239,7 +240,7 @@
 
 .home-photo3 {
   position: relative;
-  background-image: url("https://images.unsplash.com/photo-1551298370-9d3d53740c72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-image: url("https://images.unsplash.com/photo-1616464917528-00525c081b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -307,7 +308,7 @@
   .home-after-image3 {
     width: 100vw;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 2rem;
     margin: 0;
     padding-bottom: 4rem;
@@ -443,5 +444,9 @@
 
   .furni-icon {
     width: 16px;
+  }
+
+  .home-main3 {
+    width: 100%;
   }
 }

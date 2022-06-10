@@ -41,9 +41,9 @@ export function Home() {
             </p>
           </div>
           <Parallax
-            bgImage="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
+            bgImage="https://i.imgur.com/Y40gL3n.jpg"
             bgImageAlt="the furnitures"
-            strength={250}
+            strength={100}
           >
             <p className="home-parallax"></p>
           </Parallax>
@@ -74,9 +74,9 @@ export function Home() {
             <div className="home-main-bg2"></div>
           </div>
           <Parallax
-            bgImage="https://images.unsplash.com/photo-1558442074-3c19857bc1dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80"
+            bgImage="https://i.imgur.com/sFSHLbC.jpg"
             bgImageAlt="the furnitures"
-            strength={250}
+            strength={100}
           >
             <p className="home-parallax"></p>
           </Parallax>
@@ -103,25 +103,19 @@ export function Home() {
             <div className="home-photo1">
               <div className="home-box-photo">
                 <img src={furni} alt="furniture icon" width={16} />
-                <p className="home-text-insidebox">
-                  Poltrona bege com base de madeira
-                </p>
+                <p className="home-text-insidebox">Sofá bege</p>
               </div>
             </div>
             <div className="home-photo2">
               <div className="home-box-photo">
                 <img src={furni} alt="furniture icon" width={16} />
-                <p className="home-text-insidebox">
-                  Criado mudo de madeira clara
-                </p>
+                <p className="home-text-insidebox">Mesa e cadeira de madeira</p>
               </div>
             </div>
             <div className="home-photo3">
               <div className="home-box-photo">
                 <img src={furni} alt="furniture icon" width={16} />
-                <p className="home-text-insidebox">
-                  Cadeira amarela industrial
-                </p>
+                <p className="home-text-insidebox">Criado mudo claro</p>
               </div>
             </div>
           </div>
@@ -242,23 +236,19 @@ export function Home() {
           <div className="home-photo1">
             <div className="home-box-photo">
               <img src={furni} alt="furniture icon" className="furni-icon" />
-              <p className="home-text-insidebox">
-                Poltrona bege com base de madeira
-              </p>
+              <p className="home-text-insidebox">Sofá bege</p>
             </div>
           </div>
           <div className="home-photo2">
             <div className="home-box-photo">
               <img src={furni} alt="furniture icon" className="furni-icon" />
-              <p className="home-text-insidebox">
-                Criado mudo de madeira clara
-              </p>
+              <p className="home-text-insidebox">Mesa e cadeira de madeira</p>
             </div>
           </div>
           <div className="home-photo3">
             <div className="home-box-photo">
               <img src={furni} alt="furniture icon" className="furni-icon" />
-              <p className="home-text-insidebox">Cadeira amarela industrial</p>
+              <p className="home-text-insidebox">Criado mudo claro</p>
             </div>
           </div>
         </div>
