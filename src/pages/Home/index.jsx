@@ -13,7 +13,7 @@ import insta2 from "../../assets/insta2.png";
 import { NavMobile } from "../../components/NavMobile";
 
 export function Home() {
-  const number = 15981289156;
+  const number = 5515981289156;
 
   return (
     <section>
