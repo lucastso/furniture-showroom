@@ -13,13 +13,19 @@ import insta2 from "../../assets/insta2.png";
 import { NavMobile } from "../../components/NavMobile";
 
 export function Home() {
+  const number = 15981289156;
+
   return (
     <section>
       <section className="home-web">
         <Nav />
-        <div className="home-contato">
+        <a
+          className="home-contato"
+          href={`https://api.WhatsApp.com/send?phone=${number}`}
+          target="_blank"
+        >
           <img src={zap} alt="whatsapp logo" width={36} />
-        </div>
+        </a>
         <SmoothScroll>
           <div className="home-text">
             <h1 className="home-headtext">
@@ -153,9 +159,13 @@ export function Home() {
       <section className="home-mobile">
         <NavMobile />
 
-        <div className="home-contato">
+        <a
+          className="home-contato"
+          href={`https://api.WhatsApp.com/send?phone=${number}`}
+          target="_blank"
+        >
           <img src={zap} alt="whatsapp logo" width={36} />
-        </div>
+        </a>
 
         <div className="home-text">
           <h1 className="home-headtext">
