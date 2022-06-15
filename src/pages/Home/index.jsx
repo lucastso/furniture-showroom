@@ -5,7 +5,7 @@ import zap from "../../assets/zap.png";
 import tele from "../../assets/tele.png";
 import pin from "../../assets/pin.png";
 import furni from "../../assets/furni.png";
-import logo2 from "../../assets/logo2.png";
+import logo2 from "../../assets/logofooter.png";
 import "./styles.css";
 import SmoothScroll from "../../components/SmoothScroll";
 import face2 from "../../assets/face2.png";
