@@ -93,9 +93,9 @@ export function Home() {
               <p className="home-main-sub2">
                 Nossa loja oferece móveis marcantes, criados com uma combinação
                 de conforto, funcionalidade e acessibilidade. Desde móveis para
-                a sala de estar, a cozinha, o quarto e para o exterior, nossa
-                coleção é decidida para criar um espaço que combine com o seu
-                estilo de vida.
+                a sala de estar, a cozinha e para o quarto. Nossa coleção é
+                decidida para criar um espaço que combine com o seu estilo de
+                vida.
               </p>
             </div>
             <div className="home-main3">
@@ -237,9 +237,8 @@ export function Home() {
             <p className="home-main-sub2">
               Nossa loja oferece móveis marcantes, criados com uma combinação de
               conforto, funcionalidade e acessibilidade. Desde móveis para a
-              sala de estar, a cozinha, o quarto e para o exterior, nossa
-              coleção é decidida para criar um espaço que combine com o seu
-              estilo de vida.
+              sala de estar, a cozinha e para o quarto. Nossa coleção é decidida
+              para criar um espaço que combine com o seu estilo de vida.
             </p>
           </div>
           <div className="home-main3">
