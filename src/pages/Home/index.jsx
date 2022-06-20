@@ -150,10 +150,13 @@ export function Home() {
                 <img src={face2} alt="facebook logo" width={22} />
                 <p className="home-option">Cumaru móveis</p>
               </div>
-              <div className="home-flexible-options">
+              <a
+                className="home-flexible-options"
+                href="https://www.instagram.com/cumarumoveisedecoracao/"
+              >
                 <img src={insta2} alt="instagram logo" width={22} />
-                <p className="home-option">@cumarumoveis</p>
-              </div>
+                <p className="home-option">@cumarumoveisedecoracao</p>
+              </a>
             </section>
           </footer>
         </SmoothScroll>
@@ -291,10 +294,13 @@ export function Home() {
               <img src={face2} alt="facebook logo" width={22} />
               <p className="home-option">Cumaru móveis</p>
             </div>
-            <div className="home-flexible-options">
+            <a
+              className="home-flexible-options"
+              href="https://www.instagram.com/cumarumoveisedecoracao/"
+            >
               <img src={insta2} alt="instagram logo" width={22} />
-              <p className="home-option">@cumarumoveis</p>
-            </div>
+              <p className="home-option">@cumarumoveisedecoracao</p>
+            </a>
           </section>
         </footer>
       </section>
