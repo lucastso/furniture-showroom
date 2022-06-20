@@ -3,6 +3,7 @@ import { Nav } from "../../components/Nav";
 import { Parallax } from "react-parallax";
 import zap from "../../assets/zap.png";
 import tele from "../../assets/tele.png";
+import email from "../../assets/email.png";
 import pin from "../../assets/pin.png";
 import furni from "../../assets/furni.png";
 import logo2 from "../../assets/logofooter.png";
@@ -138,6 +139,10 @@ export function Home() {
               <div className="home-flexible-options">
                 <img src={tele} alt="tele" width={18} />
                 <p className="home-option"> (11) 3242 9191</p>
+              </div>
+              <div className="home-flexible-options">
+                <img src={email} alt="tele" width={18} />
+                <p className="home-option">cumarumoveisedecor@hotmail.com</p>
               </div>
             </section>
             <section className="home-contatos2">
@@ -275,6 +280,10 @@ export function Home() {
             <div className="home-flexible-options">
               <img src={tele} alt="tele" width={18} />
               <p className="home-option"> (11) 3242 9191</p>
+            </div>
+            <div className="home-flexible-options">
+              <img src={email} alt="tele" width={18} />
+              <p className="home-option">cumarumoveisedecor@hotmail.com</p>
             </div>
           </section>
           <section className="home-contatos2">
