@@ -20,13 +20,13 @@ export function Home() {
     <section>
       <section className="home-web">
         <Nav />
-        <a
+        {/*<a
           className="home-contato"
           href={`https://api.WhatsApp.com/send?phone=${number}`}
           target="_blank"
         >
           <img src={zap} alt="whatsapp logo" width={36} />
-        </a>
+        </a> */}
         <SmoothScroll>
           <div className="home-text">
             <h1 className="home-headtext">
@@ -131,18 +131,18 @@ export function Home() {
             <section className="home-contatos1">
               <div className="home-flexible-options">
                 <img src={pin} alt="pin" width={12} />
-                <p className="home-option">
+                <a className="home-option" href="https://goo.gl/maps/qzzUeMtLcnuCowum6" target="_blank">
                   Avenida Zélia de Lima Rosa, 454.
                   <strong> Boituva, SP</strong>
-                </p>
+                </a>
               </div>
               <div className="home-flexible-options">
                 <img src={tele} alt="tele" width={18} />
-                <p className="home-option"> (11) 3242 9191</p>
+                <a className="home-option" href="tel:+5515981289156"> (11) 3242 9191</a>
               </div>
               <div className="home-flexible-options">
                 <img src={email} alt="tele" width={18} />
-                <p className="home-option">cumarumoveisedecor@hotmail.com</p>
+                <a className="home-option" href="mailto:cumarumoveisedecor@hotmail.com">cumarumoveisedecor@hotmail.com</a>
               </div>
             </section>
             <section className="home-contatos2">
@@ -152,7 +152,7 @@ export function Home() {
               </div>
               <a
                 className="home-flexible-options"
-                href="https://www.instagram.com/cumarumoveisedecoracao/"
+                href="https://www.instagram.com/cumarumoveisedecoracao/" target="_blank"
               >
                 <img src={insta2} alt="instagram logo" width={22} />
                 <p className="home-option">@cumarumoveisedecoracao</p>
@@ -167,13 +167,13 @@ export function Home() {
       <section className="home-mobile">
         <NavMobile />
 
-        <a
+        {/*<a
           className="home-contato"
           href={`https://api.WhatsApp.com/send?phone=${number}`}
           target="_blank"
         >
           <img src={zap} alt="whatsapp logo" width={36} />
-        </a>
+        </a> */}
 
         <div className="home-text">
           <h1 className="home-headtext">
@@ -274,18 +274,18 @@ export function Home() {
           <section className="home-contatos1">
             <div className="home-flexible-options">
               <img src={pin} alt="pin" width={12} />
-              <p className="home-option">
+              <a className="home-option" href="https://goo.gl/maps/qzzUeMtLcnuCowum6" target="_blank">
                 Avenida Zélia de Lima Rosa, 454.
                 <strong> Boituva, SP</strong>
-              </p>
+              </a>
             </div>
             <div className="home-flexible-options">
               <img src={tele} alt="tele" width={18} />
-              <p className="home-option"> (11) 3242 9191</p>
+              <a className="home-option" href="tel:+5515981289156"> (11) 3242 9191</a>
             </div>
             <div className="home-flexible-options">
               <img src={email} alt="tele" width={18} />
-              <p className="home-option">cumarumoveisedecor@hotmail.com</p>
+              <a className="home-option" href="mailto:cumarumoveisedecor@hotmail.com">cumarumoveisedecor@hotmail.com</a>
             </div>
           </section>
           <section className="home-contatos2">
@@ -295,7 +295,7 @@ export function Home() {
             </div>
             <a
               className="home-flexible-options"
-              href="https://www.instagram.com/cumarumoveisedecoracao/"
+              href="https://www.instagram.com/cumarumoveisedecoracao/" target="_blank"
             >
               <img src={insta2} alt="instagram logo" width={22} />
               <p className="home-option">@cumarumoveisedecoracao</p>
