@@ -8,26 +8,24 @@ import pin from "../../assets/pin.png";
 import furni from "../../assets/furni.png";
 import logo2 from "../../assets/logofooter.png";
 import "./styles.css";
-import SmoothScroll from "../../components/SmoothScroll";
 import face2 from "../../assets/face2.png";
 import insta2 from "../../assets/insta2.png";
 import { NavMobile } from "../../components/NavMobile";
 
 export function Home() {
-  const number = 5515981289156;
+  const number = 5515997572370;
 
   return (
     <section>
       <section className="home-web">
         <Nav />
-        {/*<a
+        <a
           className="home-contato"
           href={`https://api.WhatsApp.com/send?phone=${number}`}
           target="_blank"
         >
           <img src={zap} alt="whatsapp logo" width={36} />
-        </a> */}
-        <SmoothScroll>
+        </a>
           <div className="home-text">
             <h1 className="home-headtext">
               Interiores{" "}
@@ -138,7 +136,7 @@ export function Home() {
               </div>
               <div className="home-flexible-options">
                 <img src={tele} alt="tele" width={18} />
-                <a className="home-option" href="tel:+5515981289156"> (11) 3242 9191</a>
+                <a className="home-option" href="tel:+5515997572370"> (15) 99757-2370</a>
               </div>
               <div className="home-flexible-options">
                 <img src={email} alt="tele" width={18} />
@@ -159,7 +157,6 @@ export function Home() {
               </a>
             </section>
           </footer>
-        </SmoothScroll>
       </section>
 
       {/* MOBILE SECTION */}
@@ -167,13 +164,13 @@ export function Home() {
       <section className="home-mobile">
         <NavMobile />
 
-        {/*<a
+        <a
           className="home-contato"
           href={`https://api.WhatsApp.com/send?phone=${number}`}
           target="_blank"
         >
           <img src={zap} alt="whatsapp logo" width={36} />
-        </a> */}
+        </a>
 
         <div className="home-text">
           <h1 className="home-headtext">
@@ -281,7 +278,7 @@ export function Home() {
             </div>
             <div className="home-flexible-options">
               <img src={tele} alt="tele" width={18} />
-              <a className="home-option" href="tel:+5515981289156"> (11) 3242 9191</a>
+              <a className="home-option" href="tel:+5515997572370"> (15) 99757-2370</a>
             </div>
             <div className="home-flexible-options">
               <img src={email} alt="tele" width={18} />
