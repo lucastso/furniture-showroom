@@ -10,7 +10,7 @@ export function NavMobile() {
         Avenida Zélia de Lima Rosa, 454.
         <strong> Boituva, SP</strong>
       </p>
-      <p className="nav-mobile-option"> (15) 99757-2370</p>
+      <p className="nav-mobile-option"> (15) 3264-9800</p>
     </div>
   );
 }

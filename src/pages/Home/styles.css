@@ -35,6 +35,11 @@
 
 .home-parallax {
   width: 100vw;
+  height: 60rem;
+}
+
+.home-parallax2 {
+  width: 100vw;
   height: 40rem;
 }
 

@@ -13,7 +13,7 @@ import insta2 from "../../assets/insta2.png";
 import { NavMobile } from "../../components/NavMobile";
 
 export function Home() {
-  const number = 5515997572370;
+  const number = 5515998528300;
 
   return (
     <section>
@@ -79,11 +79,11 @@ export function Home() {
             <div className="home-main-bg2"></div>
           </div>
           <Parallax
-            bgImage="https://i.imgur.com/sFSHLbC.jpg"
+            bgImage="https://i.imgur.com/Y40gL3n.jpg"
             bgImageAlt="the furnitures"
             strength={100}
           >
-            <p className="home-parallax"></p>
+            <p className="home-parallax2"></p>
           </Parallax>
           <div className="home-after-image3">
             <div className="home-main3">
@@ -136,7 +136,7 @@ export function Home() {
               </div>
               <div className="home-flexible-options">
                 <img src={tele} alt="tele" width={18} />
-                <a className="home-option" href="tel:+5515997572370"> (15) 99757-2370</a>
+                <a className="home-option" href="tel:+5515997572370"> (11) 3264-9800</a>
               </div>
               <div className="home-flexible-options">
                 <img src={email} alt="tele" width={18} />
@@ -278,7 +278,7 @@ export function Home() {
             </div>
             <div className="home-flexible-options">
               <img src={tele} alt="tele" width={18} />
-              <a className="home-option" href="tel:+5515997572370"> (15) 99757-2370</a>
+              <a className="home-option" href="tel:+5515997572370"> (11) 3264-9800</a>
             </div>
             <div className="home-flexible-options">
               <img src={email} alt="tele" width={18} />
